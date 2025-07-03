@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    rel="stylesheet">
+    <style>
+        footer{
+            display: flex;
+            line-height:2;
+            background-color: rgb(55, 131, 105);
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            color:rgb(227, 225, 225)
+        }
+        #col2{
+            margin-left: 50px;
+        }
+        li:hover{
+            color:black;
+            font-weight: 700;
+        }
+        #header{
+            display: flex;
+            margin:20px;
+        }
+        li{
+            margin: 20px;
+        }
+        select{
+            border:none;
+        }
+        i{
+            font-size: 10px;
+            margin-right: 8px;
+            
+        }
+        .a{
+            color:transparent;
+            background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+            -webkit-background-clip: text;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul type="none" id="header">
+            <li><i class="fa-solid fa-user"></i>About</li>
+            <li><i class="fa-brands fa-instagram"></i>Events</li>
+            <li>Products
+                <select>
+                     <option>Watch</option>
+                     <option>Phones</option>
+                     <option>Laptop</option>
+                     <option>cometics</option>
+                </select>
+            </li>
+            <li>services</li>
+        </ul>
+    </nav>
+    <footer>
+        <div id="col1">
+        <ul type="none">
+            <li>Blog</li>
+            <li>Resource</li>
+            <li>Events</li>
+            <li>Contact</li>
+        </ul>
+    </div>    
+        <div id="col2">  
+        </ul>
+          <ul type="none">
+            <li>Blog</li>
+            <li>Resource</li>
+            <li>Events</li>
+            <li>Contact</li>
+        </ul>
+        </div>
+    </footer>
+</body>
+</html>
